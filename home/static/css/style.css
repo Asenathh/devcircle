@@ -33,10 +33,10 @@ body{
 .avat img{
     border-radius: 100%;
     width: 40px;
-    outline: 2px solid #901818c7;
+    outline: 2px solid #1e1890c7;
 }
 .cont i{
-    color: #901818c7;
+    color: #1e1890c7;
 }
 .authlist a{
     text-decoration: none;
@@ -44,12 +44,12 @@ body{
     font-weight: 600;
 }
 .authlist a:hover{
-    color: #901818c7;
+    color: #1e1890c7;
 }
 /* topbar done*/
 /* navbar */
 .navbar{
-    background: rgba(165, 72, 72, 0.717);
+    background: rgba(5, 21, 246, 0.349);
 }
 .navbar-nav a{
     color: white;
@@ -59,7 +59,7 @@ body{
     color: black;
 }
 .dropdown ul{
-    background: rgba(165, 72, 72, 0.717) !important;
+    background: rgba(5, 21, 246, 0.349) !important;
 }
 /* navbar done */
 
@@ -69,14 +69,14 @@ body{
     color: black;
 }
 .carousel-indicators .active{
-    background-color: rgb(128, 0, 0) !important;
+    background-color: rgb(0, 0, 246) !important;
 }
 /* carousel done */
 
 /* content */
 .card{
-    outline: 2px solid #901818c7;
-    box-shadow: 0 0 20px 0 #901818c7;
+    outline: 2px solid #1e1890c7;
+    box-shadow: 0 0 20px 0 #1e1890c7;
     transition: 1s;
     border-radius: 2rem 0 !important;
 }
@@ -91,14 +91,14 @@ body{
     transform: translateY(-30px);
 }
 .line{
-    border-bottom: 3px solid #901818c7;
+    border-bottom: 3px solid #1e1890c7;
 }
 .card-body .btn{
-    background: #901818c7;
+    background: #1e1890c7;
     border: none;
 }
 .card-body .btn:hover{
-    background: #901818c7;
+    background: #1e1890c7;
     color: black;
 }
 .title::after{
@@ -106,22 +106,22 @@ body{
     display: block;
     width: 180px;
     height: 3px;
-    background: #901818c7;
+    background: #1e1890c7;
     margin-left: auto;
     margin-right: auto;
 }
 .pagination a{
-    color: #901818c7;
+    color: #1e1890c7;
 }
 .pagination li a:hover{
-    background: #901818c7 !important;
+    background: #1e1890c7 !important;
     color: white;
 }
 /* content done */
 
 /* footer */
 .footer1{
-    background: rgba(165, 72, 72, 0.717);
+    background: rgb(66, 80, 161);
     padding: 3% 0;
 }
 .footer1 img{
@@ -144,7 +144,7 @@ body{
     text-align: center;
 }
 .footbox3 ul li i{
-    color: #901818c7;
+    color: black;
 }
 /* footer done */
 
@@ -167,13 +167,13 @@ body{
 }
 .phonedet h5{
     font-weight: bolder;
-    color: #901818c7;
+    color: #1e1890c7;
 }
 /* Detail done */
 
 /* Contact */
 .contbtn{
-    background: #901818c7 !important;
+    background: #1e1890c7 !important;
     color: white !important;
     width: 100px;
 }
@@ -188,10 +188,10 @@ body{
 /* cart */
 .cart table{
     width: 90%;
-    border: 1px solid #901818c7 !important; 
+    border: 1px solid #1e1890c7 !important; 
 }
 .cart thead{
-    background: #901818c7;
+    background: #1e1890c7;
     text-align: center;
 }
 .cart th{
@@ -200,10 +200,10 @@ body{
 }
 .cart tbody{
     text-align: center;
-    /* border: 1px solid #901818c7; */
+    /* border: 1px solid #1e1890c7; */
 }
 .cart tbody td{
-    border: 1px solid #901818c7;
+    border: 1px solid #1e1890c7;
     color: black;
     text-transform: capitalize;
     font-weight: 800;
@@ -214,14 +214,14 @@ body{
     font-weight: 600;
 }
 .cartbtn{
-    background: #901818c7 !important;
+    background: #1e1890c7 !important;
     color: white !important;
 }
 /* cart done */
 
 /* checkout */
 .ship{
-    border: 1px solid #901818c7;
+    border: 1px solid #1e1890c7;
     padding: 10px;
 }
 .cart p{
@@ -238,7 +238,7 @@ body{
 }
 .profavat img{
     border-radius: 100%;
-    outline: 2px solid #901818c7;
+    outline: 2px solid #1e1890c7;
 }
 .uselink{
     padding-top: 5%;
@@ -252,14 +252,14 @@ body{
     color: black;
 }
 .uselink i{
-    color: #901818c7;
+    color: #1e1890c7;
 }
 /* profile done */
 
 /* callback */
 .callback p{
     text-transform: capitalize;
-    color: #901818c7;
+    color: #1e1890c7;
     margin-top: 5%;
     font-size: 20px;
 }
@@ -275,19 +275,19 @@ body{
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    outline: 2px solid #901818c7;
+    outline: 2px solid #1e1890c7;
     padding: 20px;
     border-radius: 1rem;
 }
 .signup form input{
-    border-color: #901818c7;
+    border-color: #1e1890c7;
 }
 .signup form input:focus{
     box-shadow: none;
-    border-color: #901818c7;
+    border-color: #1e1890c7;
 }
 .login i{
-    color: #901818c7;
+    color: #1e1890c7;
 }
 .pass{
     position: relative;
@@ -316,7 +316,7 @@ body{
 @media (max-width: 1400px){
     .profavat img{
         border-radius: 100%;
-        outline: 2px solid #901818c7;
+        outline: 2px solid #1e1890c7;
         height: 300px;
     }
 }
@@ -327,7 +327,7 @@ body{
     }
     .profavat img{
         border-radius: 100%;
-        outline: 2px solid #901818c7;
+        outline: 2px solid #1e1890c7;
         height: 100px;
         margin-left: 35%;
     }
@@ -335,7 +335,7 @@ body{
         width: 80%;
         margin-right: 10%;
         margin-left: 10%;
-        outline: 2px solid #901818c7;
+        outline: 2px solid #1e1890c7;
         padding: 20px;
         border-radius: 1rem;
     }
