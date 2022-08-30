@@ -294,8 +294,9 @@ def checkout(request):
 
     for item in cart:
         subtotal += item.price * item.qty
-        vat = 0.075 * subtotal
-        total = subtotal + vat
+
+    vat = 0.075 * subtotal
+    total = subtotal + vat
 
     context = {
         'cart':cart,
